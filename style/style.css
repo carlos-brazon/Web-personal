@@ -11,11 +11,13 @@
     padding: 0px;
     text-align: left;
     background-color: black;
+    position: fixed;
+    top: 0;  
 }
 
 .encabezado{
     width: 1000px;
-    height: 70px;
+    height: 70px;   
     background-color: black;
 }
 
@@ -64,13 +66,26 @@
         color: rgb(212, 212, 212);
         position: absolute;
         z-index: 1;
-        transform: translate(20%, -500%);
+        transform: translate(10%, -380%);
         font-family: Arial, Helvetica, sans-serif;
         -webkit-text-stroke: 0.3px rgb(8, 0, 125);
     }
-    h4 {
+    .nombre>h4 {
         text-align: center;
+        transform: translate(-10%, -0%);
     }
+
+    .nombre>p{
+        color:rgb(212, 212, 212);
+        text-align: right;
+        transform: translate(60%, 90%);
+        rotate: -7deg;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 130%;
+        font-weight: bold;
+        opacity: 0.5;
+    }
+
     .imgperfil {
         width: 90px;
         height: 90px;
@@ -82,7 +97,7 @@
         display: inline-block;
         border: 1px solid rgb(132, 132, 132);
         position: relative;
-        transform: translate(170%, -400%);
+        transform: translate(170%, -430%);
         border-radius: 50%;
         box-shadow: 0px 0px 10px 5px rgb(132, 132, 132);
 }
@@ -92,7 +107,7 @@
 
 .div-body2 {
         width: 1000px;
-        height: 467px;
+        height: 466px;
         margin: 0px;
         padding: 0px;
         text-align: left;
@@ -141,6 +156,8 @@
     padding: 0px;
     text-align: left;
     background: linear-gradient(to bottom left, rgba(2, 48, 100, 0.896) 45%, rgb(160, 60, 7) 55%);
+    position: fixed;
+   top: 0;
 }
 .div-body3>h1 {
     width: 1000px;
@@ -157,7 +174,7 @@
     color: rgb(255, 237, 237);
     font-family: Arial, sans-serif;
     -webkit-text-stroke: 0.1px rgb(0, 0, 0);
-    padding: 45px 0px 10px 0px;
+    padding: 45px 0px 10px 200px;
     font-size: 140%;
 }
 
