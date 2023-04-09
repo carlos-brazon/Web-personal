@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./style/style.css">
+   <style>
+    body {
+        zoom: 153%;
+    }
+   </style>
+</head>
+<body>
+
+    <div class="div-body3">
+        <head>
+    
+            <nav class="encabezado">
+                <div class="logo"></div>    
+                <ul>
+                    <div class="li"><a href="./acerca.html">About</a></div>
+                    <div class="li"> <a href="./portafolio.html">Portfolio</a></div>
+                    <div class="li"><a href="./contacto.html">Contact</a></div>
+                    <div class="li"><a href="./index.html"> Home</a></div>
+                </ul>
+            </nav>
+        </head>
+
+<h1>¡Hola!</h1>
+<H4>Puedes contactarme rellenando el siguiente formulario</H4>
+
+<form>
+        <input type="text" name="name"  id="name"; placeholder="Nombre" >
+        <input type="text" name="apellido"  id="apellido"; placeholder="Apellido"><br>
+        <input type="text" name="Email" id="Email" placeholder="Email">
+        <input type="tel" name="telefono" id="telefono" placeholder="Teléfono"> <br><br>
+                
+            <p><textarea name="" id="comentario" cols="50" rows="4" placeholder="Escriba aquí su comentario"></textarea></p>
+
+            <label for="motivo"></label>
+        <select>
+             <option value="" disabled selected> Seleciona motivo de contácto</option>
+             <option value="">Profesional</option>
+             <option value="">Personal</option>
+             <option value="">Publicidad</option>
+             <option value="">Otro</option>
+         </select><br><br>
+
+        <label> Quiero recibir respuesta:</label>
+        <label>Si </label><input type="radio"; name="Si">
+        <label>No </label> <input type="radio"; name="Si">
+
+        <p class="condiciones">Acepto los términos y condiciones</p>
+        <input type="checkbox" name="checkbox" class="checkbox"><br>
+
+        <button class="boton0" onclick="alert('Su formulario ha sido enviado')">Enviar</button>
+</form>
+</div>
+</body>
+</html>

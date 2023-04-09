@@ -1,0 +1,459 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+/* ------------------------------aquí empieza home------------------------------- */
+.div-body {
+    width: 1000px;
+    height: 466px;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    background-color: black;
+}
+
+.encabezado{
+    width: 1000px;
+    height: 70px;
+    background-color: black;
+}
+
+.logo {
+    width: 250px;
+    height: 70px;
+    margin: 0px 0px 0px 0px;
+    background-image: url("../asstss/logo2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    }
+    a {
+        color:rgb(176, 176, 176);
+        transition: color 1.2s ease, font-weight 1.2s ease;
+    }
+    a:hover {
+        color: rgb(255, 91, 3);
+    }
+    .li, ul {
+        display: inline-block;
+        color:rgb(176, 176, 176);
+        margin: 0px 30px 0px 10px;
+        padding: 0px 0px 10px px;
+        position: relative;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        transform: translate(10%, -70%);
+    }
+
+    .fondo {
+        width: 1000px;
+        height: 405px;
+        margin: 0px;
+        padding: 0px;
+        background-image: url("../asstss/fondo2.jpg");
+        background-position: center 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: black;
+        opacity: 0.3;
+        display: inline-block;
+    }
+    .nombre {
+        color: rgb(212, 212, 212);
+        position: absolute;
+        z-index: 1;
+        transform: translate(20%, -500%);
+        font-family: Arial, Helvetica, sans-serif;
+        -webkit-text-stroke: 0.3px rgb(8, 0, 125);
+    }
+    h4 {
+        text-align: center;
+    }
+    .imgperfil {
+        width: 90px;
+        height: 90px;
+        margin: 0px;
+        padding: 0px;
+        background-image: url("../asstss/perfil.png");
+        background-position: 30% center;
+        background-size: cover;
+        display: inline-block;
+        border: 1px solid rgb(132, 132, 132);
+        position: relative;
+        transform: translate(170%, -400%);
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px 5px rgb(132, 132, 132);
+}
+
+
+/* aqui empieza acerca de mi-------------------------------------------------- */
+
+.div-body2 {
+        width: 1000px;
+        height: 467px;
+        margin: 0px;
+        padding: 0px;
+        text-align: left;
+        background: linear-gradient(to bottom left, rgba(2, 48, 100, 0.896) 45%, rgb(160, 60, 7) 55%);
+    }
+    .fondoaboutme {
+        width: 950px;
+        height: 360px;
+        transform: translate(2%, 4%);
+        background-image: url("../asstss/fondoabout.avif");
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: inline-block;
+        border-radius: 5px;
+        filter: blur(3px);
+    }
+    .div-body2>h1 {
+        width: 250px;
+        color: rgb(255, 237, 237);
+        font-family: 'Alkatra', cursive;
+        -webkit-text-stroke: 1.1px rgb(0, 0, 0);
+        transform: translate(-350%, 160%);
+        z-index: 1;
+        display: inline-block;
+        position: absolute;
+    }
+    .div-body2>p {
+        width: 600px;
+        color: rgb(255, 255, 255);
+        font-family: 'Alkatra', cursive;
+        font-size: 108%;
+        text-align: justify;
+        transform: translate(-130%, 60%);
+        z-index: 1;
+        display: inline-block;
+        position: absolute;
+    }
+
+/* aqui empieza contacto-------------------------------------------------- */
+
+.div-body3 {
+    width: 1000px;
+    height: 467px;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    background: linear-gradient(to bottom left, rgba(2, 48, 100, 0.896) 45%, rgb(160, 60, 7) 55%);
+}
+.div-body3>h1 {
+    width: 1000px;
+    color: rgb(255, 237, 237);
+    font-family: 'Alkatra', cursive;
+    -webkit-text-stroke: 1.1px rgb(0, 0, 0);
+    z-index: 1;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+}
+.div-body3>h4 {
+    width: 1000px;
+    color: rgb(255, 237, 237);
+    font-family: Arial, sans-serif;
+    -webkit-text-stroke: 0.1px rgb(0, 0, 0);
+    padding: 45px 0px 10px 0px;
+    font-size: 140%;
+}
+
+input:nth-of-type(1) {
+    background-color: rgb(199, 199, 199);
+    margin: 0px 0px 5px 330px;
+    text-align: left;
+    border: 2px solid rgb(75, 88, 207);
+    border-style: groove;
+    border-radius: 2px;
+    width: 170px;
+    height: 20px;
+}
+input:nth-of-type(2) {
+    background-color: rgb(199, 199, 199);
+    margin: 0px 0px 5px 5px;
+    text-align: left;
+    border: 2px solid rgb(75, 88, 207);
+    border-style: groove;
+    border-radius: 2px;
+    width: 170px;
+    height: 20px;
+}
+input:nth-of-type(3) {
+    background-color: rgb(199, 199, 199);
+    margin: 0px 0px 5px 330px;
+    text-align: left;
+    border: 2px solid rgb(75, 88, 207);
+    border-style: groove;
+    border-radius: 2px;
+    width: 170px;
+    height: 20px;
+}
+input:nth-of-type(4){
+    background-color: rgb(199, 199, 199);
+    margin: 0px 0px 5px 5px;
+    text-align: left;
+    border: 2px solid rgb(75, 88, 207);
+    border-style: groove;
+    border-radius: 2px;
+    width: 170px;
+    height: 20px;
+}
+input:focus{
+    background-color: rgb(166, 166, 166);
+    outline: 1px solid rgb(0, 187, 255);
+}
+
+#comentario {
+    background-color: rgb(199, 199, 199);
+    margin: 0px 0px 5px 315px;
+    text-align: left;
+    border: 2px solid rgb(75, 88, 207);
+    border-style: groove;
+    border-radius: 5px;
+}
+#comentario:focus {
+    background-color: rgb(166, 166, 166);
+    outline: 1px solid rgb(0, 187, 255);
+}
+
+label:nth-of-type(1) {
+    text-align: center;
+    margin: 0px 0px 5px 410px;
+}
+
+select {
+    background-color: rgb(185, 185, 185);
+    border: 2px solid rgb(75, 88, 207);
+    border-radius: 5px;
+}
+select:focus{
+    background-color: rgb(168, 168, 168);
+    outline: 1px solid rgb(0, 187, 255);
+}
+
+label:nth-of-type(2) {
+    color: rgb(255, 237, 237);
+    text-align: center;
+    margin: 0px 0px 10px 380px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+label:nth-of-type(3) {
+    color: rgb(255, 237, 237);
+    text-align: center;
+margin: 0px 0px 5px 5px;
+font-family: Arial, Helvetica, sans-serif;
+}
+label:nth-of-type(4) {
+    color: rgb(255, 237, 237);
+    text-align: center;
+    margin: 0px 0px 100px 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input:nth-of-type(5):focus {
+    outline: none;
+}
+input:nth-of-type(6):focus {
+    outline: none;
+}
+
+.condiciones{
+    color: rgb(255, 237, 237);
+    margin: 13px 0px 0px 390px;
+    padding: 0px 0px 0px 0px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input:last-of-type {
+    margin: 0px 0px 0px 5px;
+    padding: 0px 0px 0px 0px;
+    width: 17px;
+    height: 17px;
+    vertical-align: bottom;
+    outline: none;
+}
+
+.boton0{
+    margin: 5px 0px 0px 480px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(75, 88, 207);
+}
+.boton0:hover {
+    transform: scale(1.1);
+    background-color: rgb(183, 183, 183);
+    transition: background-color 1s ease;
+    outline: 1px solid rgb(0, 187, 255);
+    border-radius: 5px;
+}
+
+/* -------------------------------aqui empieza portafolio-------------------------------- */
+.fondoportafolio {
+    width: 1000px;
+    height: 465px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../asstss/portafolio3.jpg");
+    background-position: center 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+}
+
+.titulo1{
+    width: 155px;
+    height: 15px;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    transform: translate(130px, -640px);
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cuadro1 {
+    width: 150px;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../asstss/cuadro1.jpg");
+    background-position: left center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border: 2px solid rgb(164, 163, 163);
+    position: relative;
+    transform: translate(-22%, -210%);
+    border-radius: 5%;
+}
+.boton1{
+    transform: translate(-165px, -412px);
+    margin: 5px 0px 0px 0px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1.1px solid rgb(60, 246, 236);
+    display: inline-block;
+    position: relative;
+}
+
+.titulo2{
+    width: 112px;
+    height: 15px;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    transform: translate(-23px, -537px);
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cuadro2 {
+    width: 150px;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../asstss/cuadro2.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    border: 2px solid rgb(164, 163, 163);
+    position: relative;
+    transform: translate(-115%, -160%);
+    border-radius: 5%;
+}
+.boton2{
+    transform: translate(-307px, -310px);
+    margin: 5px 0px 0px 0px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1.1px solid rgb(60, 246, 236);
+    display: inline-block;
+    position: relative;
+}
+
+.titulo3{
+    width: 179px;
+    height: 15px;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    transform: translate(-215px, -640px);
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cuadro3 {
+    width: 150px;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../asstss/galeria.png");
+    background-position: center center;
+    background-size: cover;
+    display: inline-block;
+    border: 2px solid rgb(164, 163, 163);
+    position: relative;
+    transform: translate(390%, -312%);
+    border-radius: 5%;  
+}
+.boton3{
+    transform: translate(476px, -619px);
+    margin: 5px 0px 0px 0px;
+    width: 80px;
+    border-radius: 5px;
+    border: 1.1px solid rgb(60, 246, 236);
+    display: inline-block;
+    position: relative;
+}
+
+.cuadro1:hover, .cuadro2:hover, .cuadro3:hover, .cuadro4:hover {
+    box-shadow: 2px 2px 10px rgb(3, 158, 247);
+}
+.boton1:hover, .boton2:hover, .boton3:hover {
+    background-color: rgb(183, 183, 183);
+    transition: background-color 1s ease;
+    outline: 1.5px solid rgb(190, 226, 240);
+    border-radius: 5px;
+}
+
+.titulo4{
+    width: 50px;
+    height: 20px;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    transform: translate(630px, -743px);
+    position: relative;
+}
+.cuadro4 {
+    width: 112px;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    border: 2px solid rgb(164, 163, 163);
+    position: relative;
+    transform: translate(470%, -261%);
+    border-radius: 5%;
+    overflow: hidden; 
+}
+iframe{
+    width: 160px;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 6px;
+    position: relative;
+    left: -24.5px;
+}
